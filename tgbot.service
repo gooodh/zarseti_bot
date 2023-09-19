@@ -1,0 +1,12 @@
+[Unit]
+Description=My TG Bot
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/user/project/zarseti_bot/env/bin/python /home/user/project/zarseti_bot/main.py
+WorkingDirectory=/home/user/project/zarseti_bot/
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

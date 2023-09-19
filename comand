@@ -1,0 +1,3 @@
+sudo cp tgbot.service /etc/systemd/syetem
+sudo syetemctl enable tgbot.service
+sudo syetemctl restart tgbot.service
